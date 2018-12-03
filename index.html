@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+  <title>customer info</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php" target="_blank" method="get">
+  <h1>Een plan voor jouw ontwikkeling</h1>
+  <p>Om een eerste stap te zetten naar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantoorden. Dit formulier helpt jou daar bij.</p><br>
+  <br>
+    Naam:<input type="text" name="naam"/>
+    <select name="Klas" required="required">
+      <option value="begin">Kies jou klas</option>
+      <option value="1A">MG1A</option>
+      <option value="1B">MG1B</option>
+      <option value="1C">MG1C</option>
+      <option value="1D">MG1D</option>
+    </select>
+  </br>
+
+  <br>
+  <fieldset class="welbevinden">
+  <legend>Welbevinden</legend>
+  <p>Hoe positief ben je op dit moment over je opleiding? * </p>
+   <input type = "radio" name="positief" value="ontevreden" required="required" autofocus />0
+   <input type = "radio" name="positief" value="1" required="required"/>1
+   <input type = "radio" name="positief" value="2" required="required"/>2
+   <input type = "radio" name="positief" value="3" required="required"/>3
+   <input type = "radio" name="positief" value="4" required="required"/>4
+   <input type = "radio" name="positief" value="neutraal" required="required"/>5
+   <input type = "radio" name="positief" value="6" required="required"/>6
+   <input type = "radio" name="positief" value="7" required="required"/>7
+   <input type = "radio" name="positief" value="8" required="required"/>8
+   <input type = "radio" name="positief" value="9" required="required"/>9
+   <input type = "radio" name="positief" value="zeer_tevreden" required="required"/>10
+ </br>
+
+   <br>
+  <p>Hoe gemotiveerd ben je momenteel om de opleiding af te maken? * </p>
+    <input type = "radio" name="gemotiveerd" value="ontevreden" required="required"/>0
+    <input type = "radio" name="gemotiveerd" value="1" required="required"/>1
+    <input type = "radio" name="gemotiveerd" value="2" required="required"/>2
+    <input type = "radio" name="gemotiveerd" value="3" required="required"/>3
+    <input type = "radio" name="gemotiveerd" value="4" required="required"/>4
+    <input type = "radio" name="gemotiveerd" value="neutraal" required="required"/>5
+    <input type = "radio" name="gemotiveerd" value="6" required="required"/>6
+    <input type = "radio" name="gemotiveerd" value="7" required="required"/>7
+    <input type = "radio" name="gemotiveerd" value="8" required="required"/>8
+    <input type = "radio" name="gemotiveerd" value="9" required="required"/>9
+    <input type = "radio" name="gemotiveerd" value="zeer_tevreden" required="required"/>10
+  </br>
+
+  <br>
+  <p>Hoeveel vertrouwen heb je momenteel in je eigen kunnen? * </p>
+    <input type = "radio" name="vertrouwen" value="ontevreden" required="required"/>0
+    <input type = "radio" name="vertrouwen" value="1" required="required"/>1
+    <input type = "radio" name="vertrouwen" value="2" required="required"/>2
+    <input type = "radio" name="vertrouwen" value="3" required="required"/>3
+    <input type = "radio" name="vertrouwen" value="4" required="required"/>4
+    <input type = "radio" name="vertrouwen" value="neutraal" required="required"/>5
+    <input type = "radio" name="vertrouwen" value="6" required="required"/>6
+    <input type = "radio" name="vertrouwen" value="7" required="required"/>7
+    <input type = "radio" name="vertrouwen" value="8" required="required"/>8
+    <input type = "radio" name="vertrouwen" value="9" required="required"/>9
+    <input type = "radio" name="vertrouwen" value="zeer_tevreden" required="required"/>10
+  </br>
+
+  <br>
+<p>Ben je tevreden met de hulp die je krijgt met de opleiding? * </p>
+  <input type = "radio" name="hulp" value="ontevreden" required="required"/>0
+  <input type = "radio" name="hulp" value="1" required="required"/>1
+  <input type = "radio" name="hulp" value="2" required="required"/>2
+  <input type = "radio" name="hulp" value="3" required="required"/>3
+  <input type = "radio" name="hulp" value="4" required="required"/>4
+  <input type = "radio" name="hulp" value="neutraal" required="required"/>5
+  <input type = "radio" name="hulp" value="6" required="required"/>6
+  <input type = "radio" name="hulp" value="7" required="required"/>7
+  <input type = "radio" name="hulp" value="8" required="required"/>8
+  <input type = "radio" name="hulp" value="9" required="required"/>9
+  <input type = "radio" name="hulp" value="zeer_tevreden" required="required"/>10
+</br>
+</fieldset>
+
+  <fieldset class="sterkekanten">
+  <legend>Sterke kanten</legend>
+  <p>wat zijn jouw sterke kanten?</p>
+   <input type = "checkbox" name="html_css" value="sterk"/>Coderen in HTML/CSS <br>
+   <input type = "checkbox" name="java" value="sterk"/>Programmeren in Java <br>
+   <input type = "checkbox" name="javaScript" value="sterk"/>Scripting: programmeren in JavaScript <br>
+   <input type = "checkbox" name="planning" value="sterk"/>Planning <br>
+   <input type = "checkbox" name="samenwerken" value="sterk"/>Samenwerken
+ </fieldset>
+
+  <fieldset class="nogteontwikkelen">
+  <legend> Nog te ontwikkelen </legend><br>
+  <p>Aan welke skills moet je nog extra aandacht besteden? </p>
+    <input type = "checkbox" name="html_css" value="zwak"/>Coderen in HTML/CSS <br>
+    <input type = "checkbox" name="java" value="zwak"/>Programmeren in Java <br>
+    <input type = "checkbox" name="javaScript" value="zwak"/>Scripting: programmeren in JavaScript <br>
+    <input type = "checkbox" name="planning" value="zwak"/>Planning <br>
+    <input type = "checkbox" name="samenwerken" value="zwak"/>Samenwerken
+</fieldset>
+
+  <p>Wat zijn jouw plannen voor de toekomst?</p>
+    <textarea name="toekomst" rows="8" cols="55"></textarea>
+
+  <input type="submit" value="Verstuur" />
+</form>
+
+  <br>
+  <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+  <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+
+  <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+  <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS"></a>
+
+</body>
+</html>
